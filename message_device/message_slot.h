@@ -2,7 +2,6 @@
 #define _MESSAGE_SLOT_H_
 
 #include <linux/ioctl.h>
-
 #define MAJOR_NUM 240
 #define MSG_SLOT_MESSAGE_FILE _IOW(MAJOR_NUM, 0, unsigned int)
 #define DEVICE_RANGE_NAME "message_slot"
