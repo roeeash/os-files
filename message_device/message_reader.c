@@ -131,7 +131,6 @@ int returned_signal=0;
 	// creating buffer
 	returned_signal = read_file(fd,returned_signal,buf);
 	
-	
 
 
 	close(fd);
