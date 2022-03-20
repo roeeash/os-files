@@ -5,7 +5,6 @@ cflags-y := -std=gnu99
 FLAGS += -03 -Wall -std=c11
 MAJ0R_DEV_NUM := 240
 
-
 all:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
  

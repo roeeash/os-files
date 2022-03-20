@@ -5,7 +5,6 @@
 
 #include "message_slot.h"
 
-
 #include <linux/fs.h>      
 #include <linux/uaccess.h> 
 #include <linux/string.h>  

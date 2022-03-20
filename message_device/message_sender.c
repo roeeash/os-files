@@ -27,7 +27,6 @@ if(strcmp(error,"arguments")==0){
 
 }
 
-
 if(strcmp(error,"ioctl")==0){
 fprintf(stderr, "ioctl failed Error: %s\n", strerror(errno));
 		exit(exit_code);
